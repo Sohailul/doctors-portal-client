@@ -8,7 +8,7 @@ import About from './Pages/About/About';
 
 function App() {
   return (
-    <div>
+    <div className='max-w-7xl mx-auto px-10'>
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home />}></Route>
