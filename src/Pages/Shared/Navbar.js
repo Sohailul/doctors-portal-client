@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const menuItems = <>
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to='/appointment'>Appointment</Link></li>
-        <li><Link to='/reviews'>Reviews</Link></li>
-        <li><Link to='/about'>About</Link></li>
-        <li><Link to='/contact'>Contact Us</Link></li>
-        <li><Link to='/login'>Login</Link></li>
+        <li><Link className='font-bold' to='/'>Home</Link></li>
+        <li><Link className='font-bold' to='/appointment'>Appointment</Link></li>
+        <li><Link className='font-bold' to='/reviews'>Reviews</Link></li>
+        <li><Link className='font-bold' to='/about'>About</Link></li>
+        <li><Link className='font-bold' to='/contact'>Contact Us</Link></li>
+        <li><Link className='font-bold' to='/login'>Login</Link></li>
     </>
     return (
         <div className="navbar bg-base-100">
