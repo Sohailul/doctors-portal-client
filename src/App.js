@@ -7,6 +7,7 @@ import Login from './Pages/Login/Login';
 import Appointment from './Pages/Appointment/Appointment';
 import Register from './Pages/Login/Register';
 import RequireAuth from './Pages/Login/RequireAuth';
+import { ToastContainer } from 'react-toastify';
 
 
 
@@ -27,6 +28,7 @@ function App() {
           </RequireAuth>
         }></Route>
       </Routes>
+      <ToastContainer />
     </div>
   );
 }
